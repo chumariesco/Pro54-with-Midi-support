@@ -10,5 +10,5 @@ Functions missing:
 - Keys held by sustain and sostenuto should be kept pressed like in the original Pro53. Useful for visual feedback.
 - I'd prefer the pickup function to freeze the GUI knob until the midi control is armed again, but that was too complicated to include for me.
 
-There is a commit related in progress.
+There is a proper commit related in progress.
 https://github.com/cmajor-lang/cmajor/commit/b303b3a5179515e3227d6745e568e1b7d130e1d1
