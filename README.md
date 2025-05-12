@@ -1,5 +1,4 @@
-Slight modification of the Pro54 cmajor synth: https://github.com/cmajor-lang/cmajor/tree/b303b3a5179515e3227d6745e568e1b7d130e1d1/examples/patches/Pro54
-To add midi support.
+Slight fork implementing midi support to the [Pro54 cmajor synth](https://github.com/cmajor-lang/cmajor/tree/b303b3a5179515e3227d6745e568e1b7d130e1d1/examples/patches/Pro54).
 
 - Sustain (64) and sostenuto (66) work.
 - All knobs and buttons included from the original Pro53 mappings.
