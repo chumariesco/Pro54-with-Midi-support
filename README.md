@@ -7,9 +7,8 @@ To add midi support.
 - Added pickup function (very cool): if a knob parameter is changed in the GUI, midi is not received until the physical knob reaches the new GUI value.
   This is useful to sync the midi controller with default patches. Especially when using a controller that can't cover all the knobs in one program.
 
-Problems and missing:
-- Midi pickup generates duplicates.
+Problems:
 - Keys held by sustain and sostenuto should be kept pressed in the GUI like in the original Pro53 (visual feedback).
-- I'd prefer the pickup function to freeze the GUI knob until the related midi control is armed again, but that was secondary and too complicated to include for me.
+- The pick-up function works only sonically, not visually. If a midi CC is disarmed, the GUI knobs related to it remain resposive (only visually). GUI knobs shouldn't move along midi changes, the Midi controller's picks up.
 
-There is a proper related commit open. https://github.com/cmajor-lang/cmajor/commit/b303b3a5179515e3227d6745e568e1b7d130e1d1
+There is a proper commit on midi implementation open. https://github.com/cmajor-lang/cmajor/commit/b303b3a5179515e3227d6745e568e1b7d130e1d1
